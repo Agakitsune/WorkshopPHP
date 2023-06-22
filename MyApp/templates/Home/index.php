@@ -1,1 +1,1 @@
-<p><?= $log ?><p>
+<p class=text><?= $log ?><p>
