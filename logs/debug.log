@@ -1,0 +1,954 @@
+2023-06-22 10:36:15 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 9
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 10:38:01 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 9
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 10:41:14 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 9
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 10:41:19 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /products
+Referer URL: http://localhost:8765/
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 9
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 10:48:30 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /products
+Referer URL: http://localhost:8765/
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 9
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 10:49:09 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /products
+Referer URL: http://localhost:8765/
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 10:50:38 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /products
+Referer URL: http://localhost:8765/
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 10:51:00 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /products
+Referer URL: http://localhost:8765/
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 10:56:31 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /products
+Referer URL: http://localhost:8765/
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:54:54 notice: Undefined property: ProduitsController::$Flash in /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php on line 31
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+Trace:
+Cake\Controller\Controller::__get() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 337
+App\Controller\ProduitsController::add() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 31
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:55:27 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Referer URL: http://localhost:8765/produits/add
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:55:52 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Referer URL: http://localhost:8765/produits
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:57:24 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Referer URL: http://localhost:8765/produits/add
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:09:14 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Referer URL: http://localhost:8765/produits/add
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:09:41 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Referer URL: http://localhost:8765/produits/add
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:10:21 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Referer URL: http://localhost:8765/produits/add
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:10:22 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Referer URL: http://localhost:8765/produits/add
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:10:44 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Referer URL: http://localhost:8765/produits/add
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:11:14 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Referer URL: http://localhost:8765/produits/add
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:11:30 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Referer URL: http://localhost:8765/produits/add
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:11:53 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Referer URL: http://localhost:8765/produits/add
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:35:11 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /produits
+Referer URL: http://localhost:8765/produits/add
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:35:16 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /products
+Referer URL: http://localhost:8765/produits
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:39:18 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /products
+Referer URL: http://localhost:8765/produits
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:39:27 notice: 4.4.12 - Having queryString set on exceptions is deprecated.If you are not using this attribute there is no action to take.Otherwise, enable Error.convertStatementToDatabaseException.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php, line: 360
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Database/Connection.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /users/view/1
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Database\Log\LoggingStatement::execute() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php, line 99
+Cake\Database\Connection::Cake\Database\{closure}() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php, line 360
+Cake\Core\Retry\CommandRetry::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php, line 70
+Cake\Database\Connection::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php, line 363
+Cake\Database\Query::execute() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Query.php, line 255
+Cake\ORM\Query::_execute() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php, line 1148
+Cake\ORM\Query::_all() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php, line 288
+Cake\ORM\Query::all() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php, line 1096
+Cake\ORM\Association\Loader\SelectLoader::_buildResultMap() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/Loader/SelectLoader.php, line 477
+Cake\ORM\Association\Loader\SelectLoader::buildEagerLoader() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/Loader/SelectLoader.php, line 128
+Cake\ORM\Association\HasMany::eagerLoader() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/HasMany.php, line 670
+Cake\ORM\EagerLoader::loadExternal() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/EagerLoader.php, line 674
+Cake\ORM\Query::_execute() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php, line 1148
+Cake\ORM\Query::_all() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php, line 288
+Cake\ORM\Query::all() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php, line 1096
+Cake\ORM\Query::first() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php, line 495
+Cake\ORM\Query::firstOrFail() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php, line 506
+Cake\ORM\Table::get() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php, line 1542
+App\Controller\UsersController::view() /home/furr/Workshop/WorkshopPHP/src/Controller/UsersController.php, line 17
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:44:53 notice: 4.4.12 - Having queryString set on exceptions is deprecated.If you are not using this attribute there is no action to take.Otherwise, enable Error.convertStatementToDatabaseException.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php, line: 360
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Database/Connection.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /users/view/1
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Database\Log\LoggingStatement::execute() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php, line 99
+Cake\Database\Connection::Cake\Database\{closure}() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php, line 360
+Cake\Core\Retry\CommandRetry::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php, line 70
+Cake\Database\Connection::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php, line 363
+Cake\Database\Query::execute() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Query.php, line 255
+Cake\ORM\Query::_execute() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php, line 1148
+Cake\ORM\Query::_all() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php, line 288
+Cake\ORM\Query::all() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php, line 1096
+Cake\ORM\Association\Loader\SelectLoader::_buildResultMap() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/Loader/SelectLoader.php, line 477
+Cake\ORM\Association\Loader\SelectLoader::buildEagerLoader() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/Loader/SelectLoader.php, line 128
+Cake\ORM\Association\HasMany::eagerLoader() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/HasMany.php, line 670
+Cake\ORM\EagerLoader::loadExternal() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/EagerLoader.php, line 674
+Cake\ORM\Query::_execute() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php, line 1148
+Cake\ORM\Query::_all() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php, line 288
+Cake\ORM\Query::all() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php, line 1096
+Cake\ORM\Query::first() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php, line 495
+Cake\ORM\Query::firstOrFail() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php, line 506
+Cake\ORM\Table::get() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php, line 1542
+App\Controller\UsersController::view() /home/furr/Workshop/WorkshopPHP/src/Controller/UsersController.php, line 17
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:44:58 notice: PaginatorComponent is deprecated, use a Cake\Datasource\Pagination\NumericPaginator instance directly.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line: 133
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /products
+Referer URL: http://localhost:8765/produits
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Controller\Component\PaginatorComponent::__construct() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php, line 55
+Cake\Controller\ComponentRegistry::_create() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ComponentRegistry.php, line 133
+Cake\Core\ObjectRegistry::load() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php, line 110
+Cake\Controller\Controller::loadComponent() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 304
+App\Controller\ProduitsController::index() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 14
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:45:06 notice: 4.4.12 - Having queryString set on exceptions is deprecated.If you are not using this attribute there is no action to take.Otherwise, enable Error.convertStatementToDatabaseException.
+/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php, line: 360
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/cakephp/src/Database/Connection.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Request URL: /users/view/1
+Trace:
+deprecationWarning /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/functions.php, line 328
+Cake\Database\Log\LoggingStatement::execute() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php, line 99
+Cake\Database\Connection::Cake\Database\{closure}() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php, line 360
+Cake\Core\Retry\CommandRetry::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php, line 70
+Cake\Database\Connection::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php, line 363
+Cake\Database\Query::execute() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Query.php, line 255
+Cake\ORM\Query::_execute() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php, line 1148
+Cake\ORM\Query::_all() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php, line 288
+Cake\ORM\Query::all() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php, line 1096
+Cake\ORM\Association\Loader\SelectLoader::_buildResultMap() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/Loader/SelectLoader.php, line 477
+Cake\ORM\Association\Loader\SelectLoader::buildEagerLoader() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/Loader/SelectLoader.php, line 128
+Cake\ORM\Association\HasMany::eagerLoader() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/HasMany.php, line 670
+Cake\ORM\EagerLoader::loadExternal() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/EagerLoader.php, line 674
+Cake\ORM\Query::_execute() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php, line 1148
+Cake\ORM\Query::_all() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php, line 288
+Cake\ORM\Query::all() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php, line 1096
+Cake\ORM\Query::first() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php, line 495
+Cake\ORM\Query::firstOrFail() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php, line 506
+Cake\ORM\Table::get() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php, line 1542
+App\Controller\UsersController::view() /home/furr/Workshop/WorkshopPHP/src/Controller/UsersController.php, line 17
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+

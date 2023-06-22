@@ -1,0 +1,25 @@
+.product-container {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-text {
+    display: flex;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1rem !important;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.form-input {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1rem;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

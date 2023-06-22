@@ -1069,3 +1069,965 @@ Stack Trace:
 
 Request URL: /playground
 Referer URL: http://localhost:8765/about
+2023-06-22 10:36:15 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Produits` could not be found. in /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Produits`',
+)
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/Locator/AbstractLocator.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:205
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php:128
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:323
+- /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php:10
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits
+2023-06-22 10:38:01 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Produits` could not be found. in /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Produits`',
+)
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/Locator/AbstractLocator.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:205
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php:128
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:323
+- /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php:10
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits
+2023-06-22 10:41:14 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Produits` could not be found. in /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Produits`',
+)
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/Locator/AbstractLocator.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:205
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php:128
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:323
+- /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php:10
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits
+2023-06-22 10:41:19 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Produits` could not be found. in /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Produits`',
+)
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/Locator/AbstractLocator.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:205
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php:128
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:323
+- /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php:10
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /products
+Referer URL: http://localhost:8765/
+2023-06-22 10:56:45 error: [Error] Undefined constant "App\Controller\this" in /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php on line 21
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits/add
+2023-06-22 10:56:54 error: [Error] Undefined constant "App\Controller\this" in /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php on line 21
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits/add
+2023-06-22 10:57:03 error: [Cake\View\Exception\MissingTemplateException] Template file `Produits/add.php` could not be found.
+
+The following paths were searched:
+
+- `/home/furr/Workshop/WorkshopPHP/templates/Produits/add.php`
+- `/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/templates/Produits/add.php`
+ in /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/View/View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Produits/add.php',
+  'paths' => 
+  array (
+    0 => '/home/furr/Workshop/WorkshopPHP/templates/',
+    1 => '/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/View/View.php:805
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:773
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:556
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits/add
+2023-06-22 11:23:57 error: [Cake\ORM\Exception\MissingTableClassException] Table class for alias `Users` could not be found. in /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php on line 243
+Exception Attributes: array (
+  0 => 'for alias `Users`',
+)
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/Locator/AbstractLocator.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:205
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association.php:405
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/BelongsTo.php:96
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/AssociationCollection.php:278
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/AssociationCollection.php:219
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php:1959
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php:1869
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php:709
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php:1557
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php:1870
+- /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php:25
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+2023-06-22 11:30:00 warning: Undefined variable $produitsTable
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+Trace:
+App\Controller\ProduitsController::add() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 25
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 162
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:30:00 error: [Error] Call to a member function save() on null in /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php on line 25
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+2023-06-22 11:30:00 warning: Unable to emit headers. Headers sent in file=/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=36
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+Trace:
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:30:00 warning: Cannot modify header information - headers already sent by (output started at /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:36)
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:30:00 warning: Cannot modify header information - headers already sent by (output started at /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:36)
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:30:00 warning: Cannot modify header information - headers already sent by (output started at /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:36)
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:53:11 error: [Error] Call to undefined method Cake\ORM\Entity::patchEntity() in /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php on line 27
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+2023-06-22 11:54:05 error: [RuntimeException] Cannot validate mimetype for a missing file in /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Validation/Validation.php on line 1242
+Stack Trace:
+- [internal]:??
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Validation/RulesProvider.php:77
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Validation/ValidationRule.php:143
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Validation/Validator.php:2722
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Validation/Validator.php:275
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Marshaller.php:275
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Marshaller.php:563
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php:2869
+- /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php:27
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+2023-06-22 11:54:39 error: [Error] Call to undefined method App\Controller\ProduitsController::save() in /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php on line 30
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+2023-06-22 11:54:54 error: [Error] Call to a member function success() on null in /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php on line 31
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+2023-06-22 11:54:54 warning: Unable to emit headers. Headers sent in file=/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=36
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+Trace:
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:54:54 warning: Cannot modify header information - headers already sent by (output started at /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:36)
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:54:54 warning: Cannot modify header information - headers already sent by (output started at /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:36)
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:54:54 warning: Cannot modify header information - headers already sent by (output started at /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:36)
+Request URL: /produits/add
+Referer URL: http://localhost:8765/produits/add
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:55:43 warning: Undefined variable $data
+Request URL: /produits/add
+Trace:
+App\Controller\ProduitsController::add() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 27
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:55:43 error: [TypeError] Cake\ORM\Table::patchEntity(): Argument #2 ($data) must be of type array, null given, called in /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php on line 27 in /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php on line 2865
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php:27
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits/add
+2023-06-22 11:55:43 warning: Unable to emit headers. Headers sent in file=/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=36
+Request URL: /produits/add
+Trace:
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:55:43 warning: Cannot modify header information - headers already sent by (output started at /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:36)
+Request URL: /produits/add
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:55:43 warning: Cannot modify header information - headers already sent by (output started at /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:36)
+Request URL: /produits/add
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:55:43 warning: Cannot modify header information - headers already sent by (output started at /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:36)
+Request URL: /produits/add
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:56:08 warning: Undefined variable $data
+Request URL: /produits/add
+Trace:
+App\Controller\ProduitsController::add() /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php, line 27
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 547
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:56:08 error: [TypeError] Cake\ORM\Table::patchEntity(): Argument #2 ($data) must be of type array, null given, called in /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php on line 27 in /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php on line 2865
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/src/Controller/ProduitsController.php:27
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits/add
+2023-06-22 11:56:08 warning: Unable to emit headers. Headers sent in file=/home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php line=36
+Request URL: /produits/add
+Trace:
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:56:08 warning: Cannot modify header information - headers already sent by (output started at /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:36)
+Request URL: /produits/add
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:56:08 warning: Cannot modify header information - headers already sent by (output started at /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:36)
+Request URL: /produits/add
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:56:08 warning: Cannot modify header information - headers already sent by (output started at /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Renderer/HtmlErrorRenderer.php:36)
+Request URL: /produits/add
+Trace:
+header [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 128
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 11:56:49 warning: Undefined variable $produit
+Request URL: /produits/add
+Trace:
+include /home/furr/Workshop/WorkshopPHP/templates/Produits/add.php, line 8
+Cake\View\View::_evaluate() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::render() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/View/View.php, line 808
+Cake\Controller\Controller::render() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:10:44 error: [ParseError] syntax error, unexpected token "class", expecting "," or ";" in /home/furr/Workshop/WorkshopPHP/templates/Produits/index.php on line 13
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/View/View.php:1177
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/View/View.php:808
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:773
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:556
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /produits
+Referer URL: http://localhost:8765/produits/add
+2023-06-22 12:39:27 error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Produits.users_id' in 'where clause' in /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/Loader/SelectLoader.php:477
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/Loader/SelectLoader.php:128
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/HasMany.php:670
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:674
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php:1542
+- /home/furr/Workshop/WorkshopPHP/src/Controller/UsersController.php:17
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /users/view/1
+2023-06-22 12:44:53 error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Produits.users_id' in 'where clause' in /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/Loader/SelectLoader.php:477
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/Loader/SelectLoader.php:128
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/HasMany.php:670
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:674
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php:1542
+- /home/furr/Workshop/WorkshopPHP/src/Controller/UsersController.php:17
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /users/view/1
+2023-06-22 12:45:06 error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Produits.users_id' in 'where clause' in /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:77
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php:360
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Connection.php:363
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Database/Query.php:255
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/Loader/SelectLoader.php:477
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/Loader/SelectLoader.php:128
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Association/HasMany.php:670
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:674
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php:1148
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:288
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Query.php:1096
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:495
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:506
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php:1542
+- /home/furr/Workshop/WorkshopPHP/src/Controller/UsersController.php:17
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /users/view/1
+2023-06-22 12:46:23 warning: Undefined variable $produits
+Request URL: /users/view/1
+Trace:
+include /home/furr/Workshop/WorkshopPHP/templates/Users/view.php, line 32
+Cake\View\View::_evaluate() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::render() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/View/View.php, line 808
+Cake\Controller\Controller::render() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:46:23 warning: foreach() argument must be of type array|object, null given
+Request URL: /users/view/1
+Trace:
+include /home/furr/Workshop/WorkshopPHP/templates/Users/view.php, line 32
+Cake\View\View::_evaluate() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/View/View.php, line 1220
+Cake\View\View::_render() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/View/View.php, line 1177
+Cake\View\View::render() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/View/View.php, line 808
+Cake\Controller\Controller::render() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 773
+Cake\Controller\Controller::invokeAction() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php, line 556
+Cake\Controller\ControllerFactory::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 139
+Cake\Controller\ControllerFactory::invoke() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php, line 114
+Cake\Http\BaseApplication::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php, line 320
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 86
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php, line 174
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Middleware\BodyParserMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php, line 157
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\RoutingMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php, line 186
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Routing\Middleware\AssetMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php, line 131
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+DebugKit\Middleware\DebugKitMiddleware::process() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 82
+Cake\Http\Runner::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php, line 67
+Cake\Http\Server::run() /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php, line 90
+[main] /home/furr/Workshop/WorkshopPHP/webroot/index.php, line 40
+
+2023-06-22 12:57:04 error: [Cake\Http\Exception\MethodNotAllowedException] Method Not Allowed in /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/ServerRequest.php on line 1493
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/src/Controller/UsersController.php:57
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /users/delete/2
+2023-06-22 12:57:19 error: [Cake\Datasource\Exception\InvalidPrimaryKeyException] Record not found in table "users" with primary key [NULL] in /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/ORM/Table.php on line 1494
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/src/Controller/UsersController.php:22
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/webroot/index.php:40
+
+Request URL: /users/view

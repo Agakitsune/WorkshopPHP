@@ -12,14 +12,18 @@
         <div class="app-container" >
             <div class="bar-container">
                 <?= $this->Html->image("logo.png", ["class" => "bar-icon"]) ?>
-                <p class="text bar-text main">MyApp</p>
+                <p class="app-text bar-text main">MyApp</p>
                 <div class="bar-separator right"></div>
                 <div class="bar-button playground-button">
-                    <p class="text bar-text">Playground</p>
+                    <p class="app-text bar-text">Playground</p>
+                </div>
+                <div class="bar-separator right left"></div>
+                <div class="bar-button products-button">
+                    <p class="app-text bar-text">Products</p>
                 </div>
                 <div class="bar-separator right left"></div>
                 <div class="bar-button about-button">
-                    <p class="text bar-text">About</p>
+                    <p class="app-text bar-text">About</p>
                 </div>
             </div>
             <main class="main">
