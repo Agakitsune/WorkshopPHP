@@ -18,6 +18,8 @@ class HomeControllerTest extends TestCase
         $this->assertEquals("kew", $this->viewVariable("log"));
         $this->get('/about');
         $this->assertResponseOk();
+        $this->get('/playground');
+        $this->assertResponseOk();
     }
 }
 

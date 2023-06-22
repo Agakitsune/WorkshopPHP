@@ -20,6 +20,12 @@ class HomeController extends AppController
 
     }
 
+    public function playground()
+    {
+        $counter = 0;
+        $this->set("counter", $counter);
+    }
+
 }
 
 ?>

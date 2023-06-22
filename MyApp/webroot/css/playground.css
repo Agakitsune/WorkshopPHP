@@ -1,0 +1,29 @@
+.playground-container {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.counter-button {
+    background-color: rgb(190, 0, 0);
+    border-radius: 5px;
+}
+
+.counter-button:hover {
+    cursor: pointer;
+    background-color: rgb(190, 80, 80);
+}
+
+.button-text {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
