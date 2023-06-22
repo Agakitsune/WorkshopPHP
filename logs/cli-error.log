@@ -1,0 +1,320 @@
+2023-06-22 06:54:07 error: [Cake\Http\Exception\NotFoundException] Not Found in /home/furr/Workshop/WorkshopPHP/MyApp/src/Controller/PagesController.php on line 70
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /home/furr/Workshop/WorkshopPHP/MyApp/tests/TestCase/Controller/PagesControllerTest.php:55
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/phpunit:107
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/bin/phpunit:122
+
+Request URL: /pages/not_existing
+2023-06-22 06:54:07 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/not_existing.php` could not be found.
+
+The following paths were searched:
+
+- `/home/furr/Workshop/WorkshopPHP/MyApp/templates/Pages/not_existing.php`
+- `/home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/templates/Pages/not_existing.php`
+ in /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/View/View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Pages/not_existing.php',
+  'paths' => 
+  array (
+    0 => '/home/furr/Workshop/WorkshopPHP/MyApp/templates/',
+    1 => '/home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/View/View.php:805
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/Controller.php:773
+- /home/furr/Workshop/WorkshopPHP/MyApp/src/Controller/PagesController.php:65
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /home/furr/Workshop/WorkshopPHP/MyApp/tests/TestCase/Controller/PagesControllerTest.php:69
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/phpunit:107
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/bin/phpunit:122
+
+Request URL: /pages/not_existing
+2023-06-22 06:54:07 error: [Cake\Http\Exception\ForbiddenException] Forbidden in /home/furr/Workshop/WorkshopPHP/MyApp/src/Controller/PagesController.php on line 52
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /home/furr/Workshop/WorkshopPHP/MyApp/tests/TestCase/Controller/PagesControllerTest.php:84
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/phpunit:107
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/bin/phpunit:122
+
+Request URL: /pages/../Layout/ajax
+2023-06-22 06:54:07 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:380
+- /home/furr/Workshop/WorkshopPHP/MyApp/tests/TestCase/Controller/PagesControllerTest.php:96
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/phpunit:107
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/bin/phpunit:122
+
+Request URL: /pages/home
+2023-06-22 06:54:19 error: [Cake\Http\Exception\NotFoundException] Not Found in /home/furr/Workshop/WorkshopPHP/MyApp/src/Controller/PagesController.php on line 70
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /home/furr/Workshop/WorkshopPHP/MyApp/tests/TestCase/Controller/PagesControllerTest.php:55
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/phpunit:107
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/bin/phpunit:122
+
+Request URL: /pages/not_existing
+2023-06-22 06:54:19 error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/not_existing.php` could not be found.
+
+The following paths were searched:
+
+- `/home/furr/Workshop/WorkshopPHP/MyApp/templates/Pages/not_existing.php`
+- `/home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/templates/Pages/not_existing.php`
+ in /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/View/View.php on line 1398
+Exception Attributes: array (
+  'file' => 'Pages/not_existing.php',
+  'paths' => 
+  array (
+    0 => '/home/furr/Workshop/WorkshopPHP/MyApp/templates/',
+    1 => '/home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/View/View.php:805
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/Controller.php:773
+- /home/furr/Workshop/WorkshopPHP/MyApp/src/Controller/PagesController.php:65
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /home/furr/Workshop/WorkshopPHP/MyApp/tests/TestCase/Controller/PagesControllerTest.php:69
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/phpunit:107
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/bin/phpunit:122
+
+Request URL: /pages/not_existing
+2023-06-22 06:54:19 error: [Cake\Http\Exception\ForbiddenException] Forbidden in /home/furr/Workshop/WorkshopPHP/MyApp/src/Controller/PagesController.php on line 52
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/Controller.php:547
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:139
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:114
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:320
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:86
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:364
+- /home/furr/Workshop/WorkshopPHP/MyApp/tests/TestCase/Controller/PagesControllerTest.php:84
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/phpunit:107
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/bin/phpunit:122
+
+Request URL: /pages/../Layout/ajax
+2023-06-22 06:54:19 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or incorrect CSRF cookie type. in /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 390
+Stack Trace:
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:186
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:131
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:82
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Runner.php:67
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/MiddlewareDispatcher.php:141
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:478
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/cakephp/cakephp/src/TestSuite/IntegrationTestTrait.php:380
+- /home/furr/Workshop/WorkshopPHP/MyApp/tests/TestCase/Controller/PagesControllerTest.php:96
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1608
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:1214
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestResult.php:728
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestCase.php:964
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/Framework/TestSuite.php:684
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/TestRunner.php:651
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:144
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/src/TextUI/Command.php:97
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/phpunit/phpunit/phpunit:107
+- /home/furr/Workshop/WorkshopPHP/MyApp/vendor/bin/phpunit:122
+
+Request URL: /pages/home
